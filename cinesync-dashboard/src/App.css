@@ -1,0 +1,134 @@
+ /* src/App.css */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #2D1B69 0%, #11082A 50%, #1a0933 100%);
+  margin: 0;
+  padding: 20px;
+  color: #000001;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #cfdbea;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #2D1B69 0%, #11082A 50%, #1a0933 100%);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+  width: 500px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.dashboard-container {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+  
+  
+ 
+}
+
+.dashboard-container1 {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+
+  
+}
+.cinema-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 20px 0;
+  background: #4f4061;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.cinema-item {
+  background: #e6d8f4;
+  border: 2px solid #0e1621;
+  border-radius: 30px;
+  padding: 20px;  /* You can adjust padding to fit your design */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  min-height: auto;
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;   /* Stack items vertically */
+  justify-content: center;  /* Vertically center */
+  align-items: center;      /* Horizontally center */
+  text-align: center;       /* Center the text within */
+  height: 100px;            /* Set a height for the square (adjust as needed) */
+}
+
+
+.cinema-item button {
+  background: #8b2dfb;
+  color: rgb(239, 229, 229);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.cinema-item button:hover {
+  background: #023d75;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.login-container input {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+.cinema-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Changed to 2 columns */
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+   background: #220448;
+  display: center;
+}
+
+ 
+
+ 
